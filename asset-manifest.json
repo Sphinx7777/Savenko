@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/forSavenko/static/css/main.236feae1.chunk.css",
+    "main.js": "/forSavenko/static/js/main.def39528.chunk.js",
+    "main.js.map": "/forSavenko/static/js/main.def39528.chunk.js.map",
+    "runtime-main.js": "/forSavenko/static/js/runtime-main.241e1e32.js",
+    "runtime-main.js.map": "/forSavenko/static/js/runtime-main.241e1e32.js.map",
+    "static/js/2.be2a2052.chunk.js": "/forSavenko/static/js/2.be2a2052.chunk.js",
+    "static/js/2.be2a2052.chunk.js.map": "/forSavenko/static/js/2.be2a2052.chunk.js.map",
+    "index.html": "/forSavenko/index.html",
+    "precache-manifest.2ae2a0eedd7f8f913e11c1fa55cd2c04.js": "/forSavenko/precache-manifest.2ae2a0eedd7f8f913e11c1fa55cd2c04.js",
+    "service-worker.js": "/forSavenko/service-worker.js",
+    "static/css/main.236feae1.chunk.css.map": "/forSavenko/static/css/main.236feae1.chunk.css.map",
+    "static/media/contacts.ico": "/forSavenko/static/media/contacts.048998bd.ico",
+    "static/media/logo.ico": "/forSavenko/static/media/logo.de627dcb.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.241e1e32.js",
+    "static/js/2.be2a2052.chunk.js",
+    "static/css/main.236feae1.chunk.css",
+    "static/js/main.def39528.chunk.js"
+  ]
+}
