@@ -2,22 +2,9 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
-	display: grid;
-	grid-template-areas: 'h h' 's c';
-	grid-template-rows: 4rem 1fr;
-	grid-template-columns: 20% 1fr;
 
 	.appContentWrapper {
-		grid-area: c;
 		margin-top: 1rem;
 	}
 }
-@media screen and (max-width: 680px) {
-	.wrapper {
-		display: block;
-		.appContentWrapper {
 
-		}
-	}
-
-}

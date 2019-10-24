@@ -1,25 +1,24 @@
 .sideBarWrapper {
-	grid-area: s;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 	border-radius: 0.5rem;
 	outline: none;
-	background: radial-gradient(at right bottom, black, white );
-	padding: 1rem 0.5rem;
+	background: radial-gradient(at right bottom, white, black );
+	padding: 0 0.5rem;
 	max-width: 100%;
 	text-align: center;
 
 	.sideBar {
 		max-width: 100%;
 		display: flex;
-		flex-direction: column;
+		justify-content: space-between;
 
 		.sideBarItem {
-			display: block;
+			display: inline-block;
 			max-width: 100%;
 			color: white;
 			font-size: 1em;
-			margin: 1rem auto;
-			padding: 0.5rem;
+			margin: 0 auto 5px auto;
+			padding: 5px;
 			text-decoration: none;
 			font-weight: bold;
 			border-bottom: 1px solid white;
@@ -27,23 +26,4 @@
 			border-bottom-left-radius: 0.5rem;
 		}
 	}
-}
-@media screen and (max-width: 680px) {
-	.sideBarWrapper {
-		margin-top: 0.5rem;
-		padding: 0 0.5rem;
-
-		.sideBar {
-flex-direction: row;
-			justify-content: space-between;
-
-
-			.sideBarItem {
-display: inline-block;
-				margin: 0 auto 5px auto;
-				padding: 5px;
-			}
-		}
-	}
-
 }

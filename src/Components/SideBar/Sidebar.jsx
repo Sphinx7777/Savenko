@@ -7,7 +7,7 @@ export const SideBar = () => {
 	return (
 		<div className={s.sideBarWrapper}>
 			<div className={s.sideBar}>
-				<NavLink className={s.sideBarItem} activeClassName={s.activeItem} to='/'>Содержимое</NavLink>
+				<NavLink className={s.sideBarItem} activeClassName={s.activeItem} to='/'>Главная</NavLink>
 				<div> </div>
 				<NavLink className={s.sideBarItem} activeClassName={s.activeItem} to='/photo'>Фотогалерея</NavLink>
 			</div>

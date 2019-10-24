@@ -10,7 +10,6 @@
   border-bottom-left-radius: 0.5rem;
 	border-bottom-right-radius: 0.5rem;
 	outline: none;
-	grid-area: h;
 	display: flex;
 	color:white ;
 	position: relative;
@@ -30,8 +29,11 @@
 			font-size: 1.3rem;
 			font-weight: bold;
 			flex-grow: 2;
-
+			@media screen and (max-width: 480px) {
+				font-size: 1.1rem;
+			}
 		}
+
 		.headerContactsBtnMenu {
 			display: flex;
 			flex-wrap: wrap;
@@ -50,7 +52,7 @@
 		position: absolute;
 		right: 0;
 		left: 60%;
-		top: 5rem;
+		top: 7rem;
 		text-align: center;
 		z-index: -10;
 		opacity: 0;
@@ -59,9 +61,6 @@
 		border-radius: 0.5rem;
 		outline: none;
 		color: white;
-		@media screen and (max-width: 680px) {
-			top: 7rem;
-		}
 
 		.contacts {
       max-width: 100%;
