@@ -11,7 +11,6 @@ export const SideBar = () => {
 				<div> </div>
 				<NavLink className={s.sideBarItem} activeClassName={s.activeItem} to='/photo'>Фотогалерея</NavLink>
 			</div>
-
 		</div>
 	)
 };
