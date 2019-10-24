@@ -1,0 +1,83 @@
+@mixin bRadius($br) {
+	border-radius: $br;
+	outline: none;
+}
+
+.headerWrapper {
+	max-width: 100%;
+	background: linear-gradient(to top left, black, white);
+	padding: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+	outline: none;
+	grid-area: h;
+	display: flex;
+	color:white ;
+	position: relative;
+
+	.header {
+		width: 100%;
+		display: flex;
+		align-items: center;
+
+		.headerLogo {
+				max-width: 2.5rem;
+				margin-right: 0.5rem;
+		}
+
+		.headerTitle {
+			text-align: center;
+			font-size: 1.3rem;
+			font-weight: bold;
+			flex-grow: 2;
+
+		}
+		.headerContactsBtnMenu {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+
+			.contactsBtnImg {
+				max-width: 1.5rem;
+				margin-right: 0.5rem;
+			}
+		}
+	}
+
+	.contactsWrapper {
+		position: absolute;
+		right: 0;
+		left: 60%;
+		top: 5rem;
+		text-align: center;
+		z-index: -10;
+		opacity: 0;
+		transition: opacity 1s;
+		background: radial-gradient(at right top, white, black);
+		border-radius: 0.5rem;
+		outline: none;
+		color: white;
+		@media screen and (max-width: 680px) {
+			top: 7rem;
+		}
+
+		.contacts {
+      max-width: 100%;
+
+			.contactItem {
+				max-width: 100%;
+				margin-top: 1rem;
+				&:last-child {
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+	.contactsWrapper.show {
+		z-index: 3;
+		opacity: 100;
+		transition: opacity 1s;
+	}
+}

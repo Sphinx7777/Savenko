@@ -1,0 +1,31 @@
+import React, {useState} from "react";
+import s from "./Header.module.scss";
+import logo from "../Images/logo.ico";
+import contacts from "../Images/contacts.ico";
+import {Contacts} from "./Contacts";
+
+
+export const Header = () => {
+	const [showContacts,setStatusShowContacts] = useState(false);
+	return (
+		<div className={s.headerWrapper}>
+			<div className={s.header}>
+
+					<img className={s.headerLogo} src={logo} alt="" />
+
+
+				<div className={s.headerTitle}>
+					Savenko & Co...
+				</div>
+				<div className={s.headerContactsBtnMenu} onClick={()=>setStatusShowContacts(!showContacts)}>
+					<img className={s.contactsBtnImg} src={contacts} alt=""/>
+					<span>Контакты</span>
+				</div>
+			</div>
+			<Contacts showContacts={showContacts}/>
+		</div>
+	)
+};
+
+
+
