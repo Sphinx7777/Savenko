@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Savenko/static/css/main.ebbe59a0.chunk.css",
-    "main.js": "/Savenko/static/js/main.cfcd1a30.chunk.js",
-    "main.js.map": "/Savenko/static/js/main.cfcd1a30.chunk.js.map",
+    "main.js": "/Savenko/static/js/main.5207e428.chunk.js",
+    "main.js.map": "/Savenko/static/js/main.5207e428.chunk.js.map",
     "runtime-main.js": "/Savenko/static/js/runtime-main.4792dccc.js",
     "runtime-main.js.map": "/Savenko/static/js/runtime-main.4792dccc.js.map",
     "static/js/2.4586c60b.chunk.js": "/Savenko/static/js/2.4586c60b.chunk.js",
     "static/js/2.4586c60b.chunk.js.map": "/Savenko/static/js/2.4586c60b.chunk.js.map",
     "index.html": "/Savenko/index.html",
-    "precache-manifest.c8bdd283d93edb7a0124a30a52fcf0b6.js": "/Savenko/precache-manifest.c8bdd283d93edb7a0124a30a52fcf0b6.js",
+    "precache-manifest.f664543da1d58178cc6343e65c3d93a8.js": "/Savenko/precache-manifest.f664543da1d58178cc6343e65c3d93a8.js",
     "service-worker.js": "/Savenko/service-worker.js",
     "static/css/main.ebbe59a0.chunk.css.map": "/Savenko/static/css/main.ebbe59a0.chunk.css.map",
     "static/media/arrow_up.ico": "/Savenko/static/media/arrow_up.e9495d98.ico",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.4792dccc.js",
     "static/js/2.4586c60b.chunk.js",
     "static/css/main.ebbe59a0.chunk.css",
-    "static/js/main.cfcd1a30.chunk.js"
+    "static/js/main.5207e428.chunk.js"
   ]
 }
