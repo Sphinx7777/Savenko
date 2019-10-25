@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Savenko/static/css/main.bc16afd9.chunk.css",
-    "main.js": "/Savenko/static/js/main.958f9ee9.chunk.js",
-    "main.js.map": "/Savenko/static/js/main.958f9ee9.chunk.js.map",
+    "main.css": "/Savenko/static/css/main.e3d9e2ec.chunk.css",
+    "main.js": "/Savenko/static/js/main.a863d978.chunk.js",
+    "main.js.map": "/Savenko/static/js/main.a863d978.chunk.js.map",
     "runtime-main.js": "/Savenko/static/js/runtime-main.4792dccc.js",
     "runtime-main.js.map": "/Savenko/static/js/runtime-main.4792dccc.js.map",
-    "static/js/2.d87b1b82.chunk.js": "/Savenko/static/js/2.d87b1b82.chunk.js",
-    "static/js/2.d87b1b82.chunk.js.map": "/Savenko/static/js/2.d87b1b82.chunk.js.map",
+    "static/js/2.95e39e00.chunk.js": "/Savenko/static/js/2.95e39e00.chunk.js",
+    "static/js/2.95e39e00.chunk.js.map": "/Savenko/static/js/2.95e39e00.chunk.js.map",
     "index.html": "/Savenko/index.html",
-    "precache-manifest.e185d8306b95a3a5b564c8b69079f72d.js": "/Savenko/precache-manifest.e185d8306b95a3a5b564c8b69079f72d.js",
+    "precache-manifest.b0fbe1ffce7f026a9a7932c6d23185ed.js": "/Savenko/precache-manifest.b0fbe1ffce7f026a9a7932c6d23185ed.js",
     "service-worker.js": "/Savenko/service-worker.js",
-    "static/css/main.bc16afd9.chunk.css.map": "/Savenko/static/css/main.bc16afd9.chunk.css.map",
+    "static/css/main.e3d9e2ec.chunk.css.map": "/Savenko/static/css/main.e3d9e2ec.chunk.css.map",
     "static/media/arrow_up.ico": "/Savenko/static/media/arrow_up.e9495d98.ico",
     "static/media/contacts.ico": "/Savenko/static/media/contacts.048998bd.ico",
     "static/media/forest.jpg": "/Savenko/static/media/forest.bd111534.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4792dccc.js",
-    "static/js/2.d87b1b82.chunk.js",
-    "static/css/main.bc16afd9.chunk.css",
-    "static/js/main.958f9ee9.chunk.js"
+    "static/js/2.95e39e00.chunk.js",
+    "static/css/main.e3d9e2ec.chunk.css",
+    "static/js/main.a863d978.chunk.js"
   ]
 }
