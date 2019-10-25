@@ -22,19 +22,19 @@ export const Contacts = ({showContacts}) => {
 					<img className={s.contactImg} src={builder} alt=""/><span>Савенко Роман Батькович</span>
 				</div>
 				<a className={s.contactItem} target='_blank' rel='noopener noreferrer'
-					 href="tel:+380663952488">
+					 href="tel:+380500135935">
 					<img className={s.contactImg} src={vodafon} alt=""/>
-					<span>+38 066 395 24 88</span>
+					<span>+38 050 013 59 35</span>
 				</a>
 				<a className={s.contactItem} target='_blank' rel='noopener noreferrer'
-					 href="tel:+380663952488">
+					 href="tel:+380684489801">
 					<img className={s.contactImg} src={kievstar_2} alt=""/>
-					<span>+38 066 395 24 88</span>
+					<span>+38 068 448 98 01</span>
 				</a>
 				<a className={s.contactItem} target='_blank' rel='noopener noreferrer'
-					 href="viber://add?number=+380663952488">
+					 href="viber://add?number=380684489801">
 					<img className={s.contactImg} src={viber} alt=""/>
-					<span>+38 066 395 24 88</span>
+					<span>+38 068 448 98 01</span>
 				</a>
 				<a className={s.contactItem} target='_blank' rel='noopener noreferrer'
 					 href="mailto:Spamoglot13@gmail.com">
