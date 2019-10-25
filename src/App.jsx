@@ -8,8 +8,15 @@ import {PhotoGallery} from "./Components/PhotoGallery/PhotoGallery";
 
 function App() {
   const [showContacts,setStatusShowContacts] = useState(false);
+  const [startTouch,setStartTouch] = useState(null);
+  const [finishedTouch,setFinishedTouch] = useState(null);
+  console.log(startTouch,finishedTouch,'render')
   return (
-    <div className={s.wrapper}>
+    <div className={s.wrapper}
+
+      /*onTouchCancel={(event => console.log(event.touches))}*/ /*onTouchMove={(event => console.log(event.touches))}*/
+         onTouchStart={(event => setStartTouch(event.changedTouches))} onTouchEnd={(event => setFinishedTouch(event.changedTouches))}>
+
       <Header showContacts={showContacts} setStatusShowContacts={setStatusShowContacts}/>
       <SideBar/>
       <div className={s.appContentWrapper}>
