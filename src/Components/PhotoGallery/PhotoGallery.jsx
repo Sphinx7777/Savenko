@@ -4,8 +4,6 @@ import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
 
 
 
-
-
 export const PhotoGallery = ({setStatusShowContacts}) => {
 
 	return (
