@@ -4,7 +4,6 @@ import forest from "../Images/forest.jpg";
 import forest1 from "../Images/forest1.jpg";
 import forest2 from "../Images/forest2.jpg";
 import forest3 from "../Images/forest3.jpg";
-
 import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
 
 
@@ -57,7 +56,6 @@ export const Contents = ({setStatusShowContacts}) => {
 						excepturi impedit laudantium non odio quas repellat sequi veniam.
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
-
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./PhotoGallery.module.scss";
+import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
 
 
 
@@ -23,6 +24,7 @@ export const PhotoGallery = ({setStatusShowContacts}) => {
 					ффффффффф фффффффффф ффффф
 				</div>
 			</div>
+			<ArrowUp />
 		</div>
 	)
 };

@@ -10,11 +10,8 @@ export const Header = ({setStatusShowContacts,showContacts}) => {
 	return (
 		<div className={s.headerWrapper}>
 			<div className={s.header}>
-
-					<img className={s.headerLogo} src={logo} alt="" />
-
-
-				<div className={s.headerTitle}>
+				<img className={s.headerLogo} src={logo} alt="" />
+					<div className={s.headerTitle}>
 					Savenko & Co...
 				</div>
 				<div className={s.headerContactsBtnMenu} onClick={()=>setStatusShowContacts(!showContacts)}>

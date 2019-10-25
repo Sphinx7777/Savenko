@@ -14,16 +14,22 @@ export const Contacts = ({showContacts}) => {
 		<div className={contactsWrapper} onClick={(event)=>event.stopPropagation()}>
 			<div className={s.contacts}>
 				<div className={s.contactItem}>
-					dfdrfdrdr dfddr fdsfdfdfdfdf
+					И Ф О
 				</div>
 				<div className={s.contactItem}>
-					drerererer
+					Телефон
 				</div>
 				<div className={s.contactItem}>
-					erererere
+					Телефон2
 				</div>
 				<div className={s.contactItem}>
-					erererere
+					Вайбер
+				</div>
+				<div className={s.contactItem}>
+					Почта
+				</div>
+				<div className={s.contactItem}>
+					Прочее ....
 				</div>
 			</div>
 		</div>

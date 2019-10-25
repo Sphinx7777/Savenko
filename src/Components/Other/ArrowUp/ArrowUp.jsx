@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import s from "./ArrowUp.module.scss";
 import arrow_up from "../../Images/arrow_up.ico";
 let toTheTop = () => {
@@ -6,15 +6,33 @@ let toTheTop = () => {
 };
 
 
-export const ArrowUp = () => {
-	const [scroll, setScroll] = useState(false);
-	const trackScroll = () => {
-		window.pageYOffset > 200 ? setScroll(true) : setScroll(false);
+export class ArrowUp extends React.PureComponent {
+	state = {
+		arrowUpShow: false
 	};
-	window.addEventListener('scroll', trackScroll);
-	return (
-		<div className={s.footer} onClick={(e) => e.stopPropagation()}>
-			{scroll && <img className={s.arrowUp} src={arrow_up} alt="" onClick={toTheTop}/>}
-		</div>
-	)
-};
+	componentDidMount(){
+		window.addEventListener('scroll', this.handleScroll);
+	}
+	componentWillUnmount() {
+		window.removeEventListener('scroll', this.handleScroll);
+	}
+	handleScroll= (event) =>{
+		let scrollTop = event.currentTarget.pageYOffset;
+		if(scrollTop>300){
+			this.setState({
+				arrowUpShow: true
+			});
+		}else if(scrollTop<300)
+		this.setState({
+			arrowUpShow: false
+		});
+	};
+
+	render() {
+		return (
+			<div className={s.footer} onClick={(e) => e.stopPropagation()}>
+				{this.state.arrowUpShow && <img className={s.arrowUp} src={arrow_up} alt="" onClick={toTheTop}/>}
+			</div>
+		)
+	}
+}
