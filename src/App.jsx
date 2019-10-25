@@ -13,8 +13,8 @@ function App() {
       <Header showContacts={showContacts} setStatusShowContacts={setStatusShowContacts}/>
       <SideBar/>
       <div className={s.appContentWrapper}>
-        <Route exact path='/' render={() => <Contents setStatusShowContacts={setStatusShowContacts}/>}/>
-        <Route exact path='/photo' render={() => <PhotoGallery/>}/>
+        <Route exact path='/' render={() => <Contents setStatusShowContacts={setStatusShowContacts} />}/>
+        <Route exact path='/photo' render={() => <PhotoGallery setStatusShowContacts={setStatusShowContacts} />}/>
       </div>
     </div>
   );

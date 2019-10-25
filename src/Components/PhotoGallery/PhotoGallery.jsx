@@ -5,10 +5,10 @@ import s from "./PhotoGallery.module.scss";
 
 
 
-export const PhotoGallery = () => {
+export const PhotoGallery = ({setStatusShowContacts}) => {
 
 	return (
-		<div className={s.photoWrapper}>
+		<div className={s.photoWrapper} onClick={()=>setStatusShowContacts(false)}>
 			<div className={s.photo}>
 				<div className={s.photoItem}>
 					фффффф  фффффф ффффффффф

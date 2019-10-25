@@ -3,7 +3,6 @@
 	color: black;
 
 
-
 	.contents {
 		max-width: 100%;
 
@@ -15,25 +14,38 @@
 				max-width: 50%;
 				margin: 1rem auto;
 				float: left;
-padding-right: 0.5rem;
+				padding-right: 0.5rem;
+				border-radius: 0.5rem;
+				outline: none;
 
 			}
+
 			.contentsDescription {
 				margin: 1rem auto;
 				padding: 1rem 0.5rem;
+				border-top: 1px solid black;
+				border-top-right-radius: 0.5rem;
+				border-top-left-radius: 0.5rem;
 			}
 		}
 
 	}
 
-
-	.arrowUp {
+	.footer {
 		position: fixed;
-		bottom: 5%;
-		right: 5%;
-		max-width: 3rem;
-		padding: 0.5rem;
-		cursor: pointer;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 2rem;
+
+		.arrowUp {
+			position: absolute;
+			bottom: 100%;
+			left: 80%;
+			max-width: 3rem;
+			padding: 0.5rem;
+			cursor: pointer;
+		}
 	}
 
 

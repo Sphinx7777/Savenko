@@ -1,15 +1,15 @@
 import React from "react";
 import s from "./Contents.module.scss";
 import forest from "../Images/forest.jpg";
-import arrow_up from "../Images/arrow_up.ico";
-let toTheTop = () => {
-	window.scrollTo(0, 0);
-};
+import forest1 from "../Images/forest1.jpg";
+import forest2 from "../Images/forest2.jpg";
+import forest3 from "../Images/forest3.jpg";
+
+import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
 
 
 
 export const Contents = ({setStatusShowContacts}) => {
-
 	return (
 		<div className={s.contentsWrapper} onClick={()=>setStatusShowContacts(false)}>
 			<div className={s.contents} >
@@ -25,7 +25,7 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest} alt=""/>
+					<img className={s.contentsImg}  src={forest1} alt=""/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -36,7 +36,7 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest} alt=""/>
+					<img className={s.contentsImg}  src={forest2} alt=""/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -47,7 +47,7 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest} alt=""/>
+					<img className={s.contentsImg}  src={forest3} alt=""/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -61,7 +61,7 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 			</div>
-			<img className={s.arrowUp} src={arrow_up} alt="" onClick={toTheTop}/>
+			<ArrowUp />
 		</div>
 	)
 };
