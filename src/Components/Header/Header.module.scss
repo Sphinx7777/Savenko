@@ -51,7 +51,7 @@
 	.contactsWrapper {
 		position: absolute;
 		right: 0;
-		left: 60%;
+		left: 50%;
 		top: 7rem;
 		text-align: center;
 		z-index: -10;
@@ -65,11 +65,32 @@
 		.contacts {
       max-width: 100%;
 
+
 			.contactItem {
 				max-width: 100%;
-				margin-top: 1rem;
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				padding: 1rem 0.5rem;
+				justify-content: left;
+				border-top: 1px solid white;
+				border-top-right-radius: 0.5rem;
+				border-top-left-radius: 0.5rem;
+				outline: none;
+				text-decoration: none;
+				color: white;
 				&:last-child {
 					margin-bottom: 1rem;
+				}
+				@media screen and (max-width: 480px) {
+					justify-content: center;
+					padding: 1rem 5px;
+				}
+				.contactImg {
+					padding-right: 0.5rem;
+					max-width: 2rem;
+					border-radius: 0.2rem;
+					outline: none;
 				}
 			}
 		}

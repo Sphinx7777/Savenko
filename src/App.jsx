@@ -17,10 +17,10 @@ const App = (props) => {
   useEffect(()=>{
     if(finish &&(start-finish)>130){
       clearTouch();
-      props.history.push('/photo');
+      setTimeout(props.history.push('/photo'),300);
     }else if(finish &&(finish-start)>130){
       clearTouch();
-      props.history.push('/');
+      setTimeout(props.history.push('/'),300);
     }
   },[finish,start,props.history]);
 
