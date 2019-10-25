@@ -6,12 +6,21 @@ import forest2 from "../Images/forest2.jpg";
 import forest3 from "../Images/forest3.jpg";
 import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
 
+const startTouch = (e)=>console.log('s' + e[0].clientX);
+const finishedTouch = (e) =>console.log('f' + e[0].clientX);
 
 
 export const Contents = ({setStatusShowContacts}) => {
 	return (
 		<div className={s.contentsWrapper} onClick={()=>setStatusShowContacts(false)}>
-			<div className={s.contents} >
+
+			<div className={s.contents}
+
+					 onTouchEnd={event => finishedTouch(event.changedTouches)}
+					 onTouchStart={event => startTouch(event.changedTouches)}
+
+			>
+
 				<div className={s.contentsItem}>
 					<img className={s.contentsImg}  src={forest} alt=""/>
 					<div className={s.contentsDescription}>
