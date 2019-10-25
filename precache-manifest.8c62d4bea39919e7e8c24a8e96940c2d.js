@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee5ed30f4f410e3df99e2d8d4dd933d4",
+    "revision": "c8c5d3f16ebad29db1a642df7585d61a",
     "url": "/Savenko/index.html"
   },
   {
-    "revision": "82a2de226b1b766ac48b",
+    "revision": "324975d5fadf34397324",
     "url": "/Savenko/static/css/main.ebbe59a0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Savenko/static/js/2.4586c60b.chunk.js"
   },
   {
-    "revision": "82a2de226b1b766ac48b",
-    "url": "/Savenko/static/js/main.c1e18f4a.chunk.js"
+    "revision": "324975d5fadf34397324",
+    "url": "/Savenko/static/js/main.d0e2f19c.chunk.js"
   },
   {
     "revision": "55b8be6ece8eca4c4e9d",
