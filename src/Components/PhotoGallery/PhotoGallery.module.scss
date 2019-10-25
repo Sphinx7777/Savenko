@@ -1,8 +1,21 @@
 .photoWrapper {
 
-	color: green;
 
-	.photo {
+	.photos {
 
+
+		.photosItem {
+			margin-bottom: 0.5rem;
+			padding-top: 1rem;
+			border-top: 1px solid black;
+			border-top-right-radius: 0.5rem;
+			border-top-left-radius: 0.5rem;
+			outline: none;
+			.photo {
+        border-radius: 0.5rem;
+				outline: none;
+				max-width: 100%;
+			}
+		}
 	}
 }

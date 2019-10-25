@@ -13,13 +13,12 @@ const App = (props) => {
   const clearTouch = () => {
     setStart(null);
     setFinish(null);
-
   };
   useEffect(()=>{
-    if(finish &&(start-finish)>100){
+    if(finish &&(start-finish)>130){
       clearTouch();
       props.history.push('/photo');
-    }else if(finish &&(finish-start)>100){
+    }else if(finish &&(finish-start)>130){
       clearTouch();
       props.history.push('/');
     }
