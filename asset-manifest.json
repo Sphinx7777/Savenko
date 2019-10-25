@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/Savenko/static/css/main.98405962.chunk.css",
-    "main.js": "/Savenko/static/js/main.4003f462.chunk.js",
-    "main.js.map": "/Savenko/static/js/main.4003f462.chunk.js.map",
+    "main.css": "/Savenko/static/css/main.ebbe59a0.chunk.css",
+    "main.js": "/Savenko/static/js/main.b455edd1.chunk.js",
+    "main.js.map": "/Savenko/static/js/main.b455edd1.chunk.js.map",
     "runtime-main.js": "/Savenko/static/js/runtime-main.4792dccc.js",
     "runtime-main.js.map": "/Savenko/static/js/runtime-main.4792dccc.js.map",
-    "static/js/2.3f7795b5.chunk.js": "/Savenko/static/js/2.3f7795b5.chunk.js",
-    "static/js/2.3f7795b5.chunk.js.map": "/Savenko/static/js/2.3f7795b5.chunk.js.map",
+    "static/js/2.4586c60b.chunk.js": "/Savenko/static/js/2.4586c60b.chunk.js",
+    "static/js/2.4586c60b.chunk.js.map": "/Savenko/static/js/2.4586c60b.chunk.js.map",
     "index.html": "/Savenko/index.html",
-    "precache-manifest.c98abf8dc7327da91280764c6c7d505c.js": "/Savenko/precache-manifest.c98abf8dc7327da91280764c6c7d505c.js",
+    "precache-manifest.55c09db16264fe59438678a7565e74ac.js": "/Savenko/precache-manifest.55c09db16264fe59438678a7565e74ac.js",
     "service-worker.js": "/Savenko/service-worker.js",
-    "static/css/main.98405962.chunk.css.map": "/Savenko/static/css/main.98405962.chunk.css.map",
+    "static/css/main.ebbe59a0.chunk.css.map": "/Savenko/static/css/main.ebbe59a0.chunk.css.map",
     "static/media/arrow_up.ico": "/Savenko/static/media/arrow_up.e9495d98.ico",
+    "static/media/builder.png": "/Savenko/static/media/builder.18d1deb9.png",
     "static/media/contacts.ico": "/Savenko/static/media/contacts.048998bd.ico",
     "static/media/forest.jpg": "/Savenko/static/media/forest.bd111534.jpg",
     "static/media/forest1.jpg": "/Savenko/static/media/forest1.fb6b8e60.jpg",
     "static/media/forest2.jpg": "/Savenko/static/media/forest2.aaec8c8f.jpg",
     "static/media/forest3.jpg": "/Savenko/static/media/forest3.d0616da7.jpg",
-    "static/media/logo.ico": "/Savenko/static/media/logo.de627dcb.ico"
+    "static/media/kievstar_2.jpeg": "/Savenko/static/media/kievstar_2.0adc297c.jpeg",
+    "static/media/logo.ico": "/Savenko/static/media/logo.de627dcb.ico",
+    "static/media/mail.ico": "/Savenko/static/media/mail.a9b30fd8.ico",
+    "static/media/viber.ico": "/Savenko/static/media/viber.a9ee815d.ico",
+    "static/media/vodafon.png": "/Savenko/static/media/vodafon.b39d2bec.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4792dccc.js",
-    "static/js/2.3f7795b5.chunk.js",
-    "static/css/main.98405962.chunk.css",
-    "static/js/main.4003f462.chunk.js"
+    "static/js/2.4586c60b.chunk.js",
+    "static/css/main.ebbe59a0.chunk.css",
+    "static/js/main.b455edd1.chunk.js"
   ]
 }
