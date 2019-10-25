@@ -1,26 +1,42 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import s from "./Contents.module.scss";
 import forest from "../Images/forest.jpg";
 import forest1 from "../Images/forest1.jpg";
 import forest2 from "../Images/forest2.jpg";
 import forest3 from "../Images/forest3.jpg";
 import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
-
-const startTouch = (e)=>console.log('s' + e[0].clientX);
-const finishedTouch = (e) =>console.log('f' + e[0].clientX);
+import {withRouter} from "react-router-dom";
 
 
-export const Contents = ({setStatusShowContacts}) => {
+
+
+
+const Contents = ({setStatusShowContacts,...props}) => {
+
+	let [finish,setFinish] = useState(null);
+	let [start,setStart] = useState(null);
+	const clearTouch = () => {
+		setStart(null);
+		setFinish(null);
+
+	};
+	useEffect(()=>{
+		if(finish &&(start-finish)>100){
+			clearTouch();
+      props.history.push('/photo');
+		}
+	},[finish,start,props.history]);
+
+
 	return (
 		<div className={s.contentsWrapper} onClick={()=>setStatusShowContacts(false)}>
-
 			<div className={s.contents}
-
-					 onTouchEnd={event => finishedTouch(event.changedTouches)}
-					 onTouchStart={event => startTouch(event.changedTouches)}
-
-			>
-
+					 onTouchEnd={(event) => {
+						 setFinish(event.changedTouches[0].screenX);
+					 }}
+					 onTouchStart={(event) => {
+						 setStart(event.changedTouches[0].screenX);
+					 }}>
 				<div className={s.contentsItem}>
 					<img className={s.contentsImg}  src={forest} alt=""/>
 					<div className={s.contentsDescription}>
@@ -72,3 +88,4 @@ export const Contents = ({setStatusShowContacts}) => {
 		</div>
 	)
 };
+export default withRouter(Contents)
