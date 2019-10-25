@@ -1,15 +1,39 @@
 .contentsWrapper {
 	background: white;
 	color: black;
-	padding: 1rem;
+
+
 
 	.contents {
 		max-width: 100%;
 
-		.contentsImg {
-			max-width: 75%;
-			margin: 0 auto;
+
+		.contentsItem {
+			clear: both;
+
+			.contentsImg {
+				max-width: 50%;
+				margin: 1rem auto;
+				float: left;
+padding-right: 0.5rem;
+
+			}
+			.contentsDescription {
+				margin: 1rem auto;
+				padding: 1rem 0.5rem;
+			}
 		}
+
+	}
+
+
+	.arrowUp {
+		position: fixed;
+		bottom: 5%;
+		right: 5%;
+		max-width: 3rem;
+		padding: 0.5rem;
+		cursor: pointer;
 	}
 
 

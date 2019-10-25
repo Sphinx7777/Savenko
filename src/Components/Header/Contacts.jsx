@@ -11,7 +11,7 @@ export const Contacts = ({showContacts}) => {
 		show: showContacts
 	});
 	return (
-		<div className={contactsWrapper}>
+		<div className={contactsWrapper} onClick={(event)=>event.stopPropagation()}>
 			<div className={s.contacts}>
 				<div className={s.contactItem}>
 					dfdrfdrdr dfddr fdsfdfdfdfdf

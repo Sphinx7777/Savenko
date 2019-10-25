@@ -1,12 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 import s from "./Header.module.scss";
 import logo from "../Images/logo.ico";
 import contacts from "../Images/contacts.ico";
 import {Contacts} from "./Contacts";
 
 
-export const Header = () => {
-	const [showContacts,setStatusShowContacts] = useState(false);
+export const Header = ({setStatusShowContacts,showContacts}) => {
+
 	return (
 		<div className={s.headerWrapper}>
 			<div className={s.header}>
