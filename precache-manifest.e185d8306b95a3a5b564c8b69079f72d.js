@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3d7d235774769607b4897fe54e3255c",
+    "revision": "46838307704db7fe2eb4e435c179213f",
     "url": "/Savenko/index.html"
   },
   {
-    "revision": "9341eae5fb8d6bc7a1a2",
-    "url": "/Savenko/static/css/main.045cdd3f.chunk.css"
+    "revision": "73cd054532e01f145dae",
+    "url": "/Savenko/static/css/main.bc16afd9.chunk.css"
   },
   {
-    "revision": "012b95457d437074937a",
-    "url": "/Savenko/static/js/2.cf76b608.chunk.js"
+    "revision": "4b437101a6537e8a98e6",
+    "url": "/Savenko/static/js/2.d87b1b82.chunk.js"
   },
   {
-    "revision": "9341eae5fb8d6bc7a1a2",
-    "url": "/Savenko/static/js/main.f911763c.chunk.js"
+    "revision": "73cd054532e01f145dae",
+    "url": "/Savenko/static/js/main.958f9ee9.chunk.js"
   },
   {
     "revision": "55b8be6ece8eca4c4e9d",
@@ -30,6 +30,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd1115345bbb7c8bd8b2c50fc46efeb9",
     "url": "/Savenko/static/media/forest.bd111534.jpg"
+  },
+  {
+    "revision": "fb6b8e6013ad8ed9e0788759373f0663",
+    "url": "/Savenko/static/media/forest1.fb6b8e60.jpg"
+  },
+  {
+    "revision": "aaec8c8f96449f18d7a88f27300d50d4",
+    "url": "/Savenko/static/media/forest2.aaec8c8f.jpg"
+  },
+  {
+    "revision": "d0616da723ce348f6a0d3534dcbb0ae7",
+    "url": "/Savenko/static/media/forest3.d0616da7.jpg"
   },
   {
     "revision": "de627dcbb2f272bee2ce188eb42e1620",
