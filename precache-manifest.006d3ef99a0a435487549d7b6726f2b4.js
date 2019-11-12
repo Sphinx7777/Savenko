@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8c5d3f16ebad29db1a642df7585d61a",
+    "revision": "a24e95241732815cd9afa9ecf313a6eb",
     "url": "/Savenko/index.html"
   },
   {
-    "revision": "324975d5fadf34397324",
-    "url": "/Savenko/static/css/main.ebbe59a0.chunk.css"
+    "revision": "e42ef1a5592ee9e1fc6f",
+    "url": "/Savenko/static/css/main.a6c1415d.chunk.css"
   },
   {
-    "revision": "deef88b13a5a74a5ed79",
-    "url": "/Savenko/static/js/2.4586c60b.chunk.js"
+    "revision": "029915a02f438dc8dab6",
+    "url": "/Savenko/static/js/2.7bf14ad8.chunk.js"
   },
   {
-    "revision": "324975d5fadf34397324",
-    "url": "/Savenko/static/js/main.d0e2f19c.chunk.js"
+    "revision": "e42ef1a5592ee9e1fc6f",
+    "url": "/Savenko/static/js/main.f673bcb6.chunk.js"
   },
   {
-    "revision": "55b8be6ece8eca4c4e9d",
-    "url": "/Savenko/static/js/runtime-main.4792dccc.js"
+    "revision": "8a7690ceff5705a4fc17",
+    "url": "/Savenko/static/js/runtime-main.21b8c0e5.js"
   },
   {
     "revision": "e9495d98a8ca50c7ad8b8b64b8de0a4a",
