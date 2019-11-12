@@ -9,11 +9,16 @@ import {ArrowUp} from "../Other/ArrowUp/ArrowUp";
 
 export const Contents = ({setStatusShowContacts}) => {
 
+	const closeContacts = () => setStatusShowContacts(false);
+
 	return (
-		<div className={s.contentsWrapper} onClick={()=>setStatusShowContacts(false)}>
+		<div className={s.contentsWrapper} onClick={closeContacts}>
 			<div className={s.contents}>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest} alt=""/>
+					<img className={s.contentsImg}
+							 src={forest}
+							 alt=""
+					/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -24,7 +29,10 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest1} alt=""/>
+					<img className={s.contentsImg}
+							 src={forest1}
+							 alt=""
+					/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -35,7 +43,10 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest2} alt=""/>
+					<img className={s.contentsImg}
+							 src={forest2}
+							 alt=""
+					/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -46,7 +57,10 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 				<div className={s.contentsItem}>
-					<img className={s.contentsImg}  src={forest3} alt=""/>
+					<img className={s.contentsImg}
+							 src={forest3}
+							 alt=""
+					/>
 					<div className={s.contentsDescription}>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eligendi error in ullam unde! Aliquam
 						consectetur dignissimos doloribus nihil quis, quod suscipit temporibus totam voluptatum! Lorem
@@ -59,7 +73,7 @@ export const Contents = ({setStatusShowContacts}) => {
 					</div>
 				</div>
 			</div>
-			<ArrowUp />
+			<ArrowUp/>
 		</div>
 	)
 };

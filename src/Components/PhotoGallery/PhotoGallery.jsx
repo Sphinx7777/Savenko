@@ -7,23 +7,36 @@ import forest2 from "../Images/forest2.jpg";
 import forest3 from "../Images/forest3.jpg";
 
 
-
 export const PhotoGallery = ({setStatusShowContacts}) => {
 
+	const closeShowContact = () => setStatusShowContacts(false);
+
 	return (
-		<div className={s.photoWrapper} onClick={()=>setStatusShowContacts(false)}>
+		<div className={s.photoWrapper} onClick={closeShowContact}>
 			<div className={s.photos}>
 				<div className={s.photosItem}>
-					<img className={s.photo}  src={forest} alt=""/>
+					<img className={s.photo}
+							 src={forest}
+							 alt=""
+					/>
 				</div>
 				<div className={s.photosItem}>
-					<img className={s.photo}  src={forest1} alt=""/>
+					<img className={s.photo}
+							 src={forest1}
+							 alt=""
+					/>
 				</div>
 				<div className={s.photosItem}>
-					<img className={s.photo}  src={forest2} alt=""/>
+					<img className={s.photo}
+							 src={forest2}
+							 alt=""
+					/>
 				</div>
 				<div className={s.photosItem}>
-					<img className={s.photo}  src={forest3} alt=""/>
+					<img className={s.photo}
+							 src={forest3}
+							 alt=""
+					/>
 				</div>
 			</div>
 			<ArrowUp />
